@@ -5,13 +5,18 @@
 }
 
 .root {
-	padding: 2vw;
+	padding: 2vw 2vw 0;
 	background-image: linear-gradient(to right bottom, #213764, #295089, #2c6caf, #2688d7, #00a7ff);
 	width: 100%;
 	height: 100%;
 	color: white;
 	font-family: poppins;
 	min-height: 100vh;
+}
+
+canvas {
+	background-color: #fff;
+	max-height: 800px;
 }
 
 .heading {
@@ -57,7 +62,22 @@
 	cursor: pointer;
 }
 
-.air-quality, .arr, .air-quality-status {
+.search-btn-2 {
+	padding: 10px 14px;
+	background-color: #269fe6;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	border-radius: 4px;
+	color: #fff;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.air-quality,
+.arr,
+.air-quality-status {
 	font-size: 4rem;
 	font-weight: 700;
 }
